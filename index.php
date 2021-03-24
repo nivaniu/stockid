@@ -1,3 +1,10 @@
 <?php
-echo "Hello World edited";
+function br(){
+echo "<br>";
+}
+echo "To get changes from remote :";
+br();
+echo "git fetch origin";
+br();
+echo "git pull";
 ?>
