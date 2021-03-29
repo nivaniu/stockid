@@ -9,12 +9,20 @@
         <title>StockId 2.01.</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <script src="https://kit.fontawesome.com/fb00b134ec.js" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     </head>
     
     <body>
-		<center>
-        <h1> Welcome to StockId V2.01. </h1> </center>
-        <center><h3><i> With StockId, always have your documents with you! </i></h3></center>
+		<div style="text-align: center;">
+        <h1> Welcome to StockId V2.01. </h1> </div>
+        <div style="text-align: center;"><h3><i> With StockId, always have your documents with you! </i></h3></div>
 		
 <ul id="menu">
 	<li><a href="#">---What do you want to do ?---</a>
@@ -178,10 +186,11 @@ IMG{
       right: 0;
       }
     </style>
-  </head>
-<center><button>
+        <div style="text-align: center;"><button>
 <a href = "deconnection.php">Logout</a>
-</center></button>
-
+</div>
+        <?php
+require "client/body.php";
+?>
     </body>
 </html>

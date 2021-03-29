@@ -6,9 +6,9 @@
     </head>
     
     <body>
-		<center>
-        <h1> Welcome to StockId V2.01. </h1> </center>
-        <center><h3><i> With StockId, always have your documents with you! </i></h3></center>
+		<div style="text-align: center;">
+        <h1> Welcome to StockId V2.01. </h1> </div>
+        <div style="text-align: center;"><h3><i> With StockId, always have your documents with you! </i></h3></div>
     <body>
         <div id="container">
 
@@ -24,7 +24,7 @@ IMG{
 }
 </style>
             
-            <form action="verification.php" method="POST">
+            <form action="index.php" method="POST">
                 <h1>Connexion</h1>
                 
                 <label><b>Username</b></label>
