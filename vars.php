@@ -29,7 +29,7 @@ function getRow($nb, $filename){
     $date = date("F d Y H:i:s.", filectime($filename));
     if (filetype($filename) == "dir"){
         $row = "<tr><th scope='row'>".ina($nb,$filename)."</th><td>".ina(filetype($filename), $filename)."</td><td>".ina($filename."<br>".makeDateCreated($date),$filename)."</td><td>".ina(human_filesize(filesize($filename),0),$filename)."</td>";
-        if($filename != "..") {$row = $row."<td>".ina("download",$filename)." | ".da("delete", $filename)."</td></tr>";}
+        if($filename != "..") {$row = $row."<td>".da("delete", $filename)."</td></tr>";}
         return $row;
     }
     return "<tr>
