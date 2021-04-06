@@ -29,9 +29,7 @@ $id_session = session_id();
         <ul>
 <!--            <li><a class="btn" data-toggle="modal" data-target="#exampleModalCenter">Send file</a></li>-->
             <li><a data-toggle="modal" data-target="#exampleModalCenter">Create folder</a></li>
-            <li><a>Take a picture</a></li>
             <li><a data-toggle="modal" data-target="#uploadDocModal">Upload document</a></li>
-            <li><a  data-toggle="modal" data-target="#exampleModalCenter">Enter a key</a></li>
         </ul>
     </li>
 </ul>
