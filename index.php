@@ -190,7 +190,7 @@ $id_session = session_id();
         <a href = "deconnection.php">Logout</a>
 </div>
 <?php
-require $_HOME_PATH."body.php";
+require $_HOME_PATH."client/body.php";
 ?>
 </body>
 </html>
