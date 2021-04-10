@@ -34,6 +34,8 @@ IMG{
                 <input type="password" placeholder="Enter your password" name="password" required>
 
                 <input type="submit" id='submit' value='LOGIN' >
+                <label>            <a href="register.php">Pas de compte?</a>
+                </label>
             </form>
         </div>
     </body>
