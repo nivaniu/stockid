@@ -163,7 +163,7 @@ function createFolder($fname){
         foreach ($arr as $key => $filename) {
             $imageFileType = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
             $allowedTypes = array("png", "jpg", "jpeg", "gif", "pdf");
-            if (filetype($filename) == "file") {
+            if (filetype($filename) == "file" || $filename == ".git") {
                 if (in_array($imageFileType, $allowedTypes))
                     p(getRow($key, $filename));
             }else{
