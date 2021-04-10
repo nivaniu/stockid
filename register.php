@@ -94,6 +94,7 @@ IMG{
                     echo "<br><span style='color: #9F391A;'> Signup failure</span>";
                 ?>
                 <input type="submit" id='submit' value='Signup' >
+                <label>            <a href="login.php">Login</a>
             </form>
         </div>
     </body>
